@@ -1,3 +1,7 @@
+//3?4a// get play button element
+
+const button1 = document.getElementById("button1");
+
 //1// get basic elements
 
 const spanMinute = document.querySelector(".minute");
