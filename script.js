@@ -2,6 +2,10 @@
 
 const button1 = document.getElementById("button1");
 
+//7a// Get button0 element
+
+const button0 = document.getElementById("button0");
+
 //1// get basic elements
 
 const spanMinute = document.querySelector(".minute");
