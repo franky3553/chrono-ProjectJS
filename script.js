@@ -44,5 +44,38 @@ function action1(){
 	}
 }
 
+//5// Create play function
+
+function play(){
+
+	const addMinute = () => {
+
+		if(minute < 99) minute++;
+	}
+
+	const addSecond = () => {
+
+		if(second === 59){
+			second = 0;
+			addMinute();
+		}
+		else{
+			second++;
+		}
+	}
+
+	const addCentes = () => {
+
+		if(centes === 99){
+			centes = 0;
+			addSecond();
+		}
+		else{
+			centes++;
+		}
+         
+		displayTime();
+	}
+
 displayTime();
 
