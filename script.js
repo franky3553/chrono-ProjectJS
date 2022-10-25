@@ -100,5 +100,15 @@ function stop(){
 	button1.innerHTML = "play";
 }
 
+//7c// Create reload function
+
+function reload(){
+
+	minute = 0;
+	second = 0;
+	centes = 0;
+	displayTiempo();
+}
+
 displayTime();
 
