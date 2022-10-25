@@ -16,6 +16,10 @@ let minute = 0;
 let second = 0;
 let centes = 0;
 
+//4c// Create playing variable
+
+let playing = null
+
 //2a// create displayTime function
 
 function displayTime(){
@@ -25,4 +29,7 @@ function displayTime(){
 	spanCentes.innerHTML = centes;
 }
 
+
+
 displayTime();
+
