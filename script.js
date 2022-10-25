@@ -81,6 +81,7 @@ function play(){
 
    playing = setInterval(addCentes, 10);
    button1.innerHTML = "stop";
+}
 
 displayTime();
 
