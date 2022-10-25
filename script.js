@@ -16,6 +16,10 @@ const spanCentes = document.querySelector(".centes");
 
 button1.addEventListener("click", action1);
 
+//7b// Create reload event
+
+button0.addEventListener("click", reload);
+
 let minute = 0;
 let second = 0;
 let centes = 0;
