@@ -29,7 +29,20 @@ function displayTime(){
 	spanCentes.innerHTML = centes;
 }
 
+//4d// Create action1 function
 
+function action1(){
+
+	if(playing){
+      
+		stop();
+	}
+
+	else{		
+
+      play();
+	}
+}
 
 displayTime();
 
