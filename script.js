@@ -77,5 +77,10 @@ function play(){
 		displayTime();
 	}
 
+   //6a// Get interval number and change play name button
+
+   playing = setInterval(addCentes, 10);
+   button1.innerHTML = "stop";
+
 displayTime();
 
