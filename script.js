@@ -83,5 +83,14 @@ function play(){
    button1.innerHTML = "stop";
 }
 
+//6b// Create stop function
+
+function stop(){
+
+	clearInterval(playing);
+	playing = null;
+	button1.innerHTML = "play";
+}
+
 displayTime();
 
